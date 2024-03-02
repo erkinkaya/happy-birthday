@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>beyzaerkin</title>
+    <link rel="stylesheet" href="innerstyle.css">
+</head>
+
+<body>
+<div id="containerDiv">
+    <div id="contextArea">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i8RgvbGuLY0?si=oIhhbinD_pyi9AWn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="buttonsAndPhoto">
+            <button id="previousButton" onclick="previousPhoto()"><</button>
+            <img id="img5" src="../assets/images/f755381a-1cc6-4144-9d12-9dafc65c3b3c.JPG">
+            <button id="nextButton" onclick="nextPhoto()">></button>
+        </div>
+        <p>Bal suratlım; yüzündeki o mutlu tebessüm, mutlu olduğunda gözlerinin kısıldığı o çok hoşuma giden gülüşün hiç eksilmesin. Yanında olduğum, seninle geçirdiğim her gün o gülüşünü kaybetmemek amacım.<br>Mutlu olmak sana çok yakışıyor, sen de bana çok yakışıyorsun...</p>
+    </div>
+</div>
+</body>
+<script>
+    function nextPhoto(){
+        window.open("endPage.html", "_self");
+    }
+    function previousPhoto(){
+        window.open("4.html", "_self");
+    }
+</script>
+</html>

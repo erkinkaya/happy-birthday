@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>beyzaerkin</title>
+    <link rel="stylesheet" href="innerstyle.css">
+</head>
+
+<body>
+<div id="containerDiv">
+    <div id="contextArea">
+        <iframe src="https://www.youtube.com/embed/ucI3IpuM-NQ?si=tQVwRfGShrt031vR" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="buttonsAndPhoto">
+            <button id="previousButton" onclick="previousPhoto()"><</button>
+            <img src="../assets/images/610bcd50-784e-435c-97ca-8274cbb7cb4a.JPG">
+            <button id="nextButton" onclick="nextPhoto()">></button>
+        </div>
+        <p>Bugün bu ufaklığın doğum günü. Dünyanın fotoğraftaki tatlı çocuk kadar küçük olduğunu o ufaklığın büyüyüp benim hayatıma gelmesiyle anladım. Gelip hayatımı güzelleştirdiği karanlık kalan yerleri renklerine boyadığı için teşekkür ederim.<br> İyi ki doğdun bebeğim.</p>
+    </div>
+</div>
+</body>
+<script>
+    function nextPhoto(){
+        window.open("2.html", "_self");
+    }
+    function previousPhoto(){
+        window.open("../index.html", "_self");
+    }
+</script>
+</html>
